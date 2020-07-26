@@ -3,92 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashutosh's Personal Site</title>
+    <title>I'm Ashu</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"/>
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="img/ashutosh.png" alt="ashutosh profile picture" height="250px" width="250px"></td>
-        <td><h1>Ashutosh Deshmukh</h1>
-          <p>
-            <em>Final Year <strong>Computer Science Student</strong></em>
-          </p>
-          <p>
-            I am a computer Science final year student, Studying in MJ college
-            Jalgaon, I love to code - like web development and i also like cofee
-          </p></td>
-      </tr>
-    </table>
-    <hr/>
-    <h3>Past Qualifications</h3>
-    <ul>
-      <li>BCA Appearing</li>
-      <li>12th - DES JR College Dharangaon</li>
-      <li>10th - DES High School Dharangaon</li>
-    </ul>
-    <hr>
-    <h3>Hobies</h3>
-    <ol>
-      <li>Playing Computer Games</li>
-      <li>Coding</li>
-      <li>Photoshop</li>
-    </ol>
-    <hr>
-    <h3>Courses Completed</h3>
-    <table cellspacing="10px">
-      <tr>
-        <th>Courses</th>
-        <th>Year</th>
-      </tr>
-      <tr>
-        <td>HTML Fundamentals</td>
-        <td>2019</td>
-      </tr>
-      <tr>
-        <td>CSS Fundamentals</td>
-        <td>2020</td>
-      </tr>
-      <tr>
-        <td>JavaScript Fundamentals</td>
-        <td>2020</td>
-      </tr>
-    </table>
-    <hr>
-      <h3>Skills</h3>
-      <table cellspacing="10px">
-        <tr>
-          <td><table cellspacing="10px">
-            <tr>
-              <td>HTML</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-          </table></td>
-          <td><table cellspacing="10px">
-            <tr>
-              <td>React</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Node</td>
-              <td>⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Photoshop</td>
-              <td>⭐</td>
-            </tr>
-          </table></td>
-        </tr>
-      </table>
-    <br>
-    <hr>
-    <a href="contact-me.html">Contact Me</a>
+    <div class="nav">
+      <img src="images/ashutosh.png" alt="photo">
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#skls">Skills</a></li>
+      </ul>
+    </div>
+
+
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Ashu</h1>
+      <h2>a <span class="web">web</span> designer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img class="mountain" src="images/mountain.png" alt="mountain-img" />
+    </div>
+
+    
+    <div class="middle-container">
+      <section id="About">
+        <div class="profile">
+          <img class="profile-image" src="images/ashutosh.png" alt="profile-image">
+          <h2>Hello.</h2>
+          <p class="profile-description">I'm a web designer / developer based in Maharashtra, India. I have a passion for web design and love to create for web and mobile devices.</p>
+        </div>
+      </section>
+      <hr>
+      <section id="skls">
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="photoshop-skill" src="images/photoshop.png" alt="photoshop">
+            <h3>Photoshop</h3>
+            <p>The web design landscape is constantly changing, but Photoshop is still a classic. Designers use it to create UI elements, web graphics, wireframes, and functional mockups.</p>
+          </div>
+          <div class="skill-row">
+            <img class="web-design-skill" src="images/webdesign.png" alt="webdesign">
+            <h3>Responsive Web Design</h3>
+            <p>Responsive web design (RWD) is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.Responsive layouts automatically adjust and adapt to any device screen size.</p>
+          </div>
+          <div class="skill-row">
+            <img class="web-development-skill" src="images/webdevelopment.png" alt="webdevelopment">
+            <h3>Web Development</h3>
+            <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id="Contact">
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love my work as much i love.</h3>
+          <p>So, for what you are waiting for contact me right now and get your Responsive design ready</p>
+          <a class="btn" href="mailto:acdeshmukhvip@email.com">CONTACT ME</a>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/ashutosh-deshmukh-a993b6182/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="#">Website</a>
+      <p>© 2020 Ashutosh Deshmukh.</p>
+    </div>
+
   </body>
 </html>
